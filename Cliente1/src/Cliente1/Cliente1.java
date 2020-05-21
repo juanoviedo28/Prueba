@@ -46,6 +46,14 @@ public class Cliente1 {
     public void setCodigo(String Codigo) {
         this.Codigo = Codigo;
     }
+    
+    public static void main(String[] args) {
+        Cliente1 obj= new Cliente1("Oviedo","Juan","35654458","183");
+        System.out.println(obj);
+    }
+    
+    
+    
       
     
     
