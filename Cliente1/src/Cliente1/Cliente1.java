@@ -52,6 +52,12 @@ public class Cliente1 {
         System.out.println(obj);
     }
     
+     @Override
+    public String toString() {
+        return "Cliente{" + "Apellido=" + Apellido + ", Nombre=" + Nombre + ", NumeroDocumento=" + NumeroDocumento + ", Codigo=" + Codigo + '}';
+    }
+    
+    
     
     
       
