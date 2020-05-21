@@ -14,6 +14,38 @@ public class Cliente1 {
         this.NumeroDocumento = NumeroDocumento;
         this.Codigo = Codigo;
     }
+       
+       public String getApellido() {
+        return Apellido;
+    }
+
+    public void setApellido(String Apellido) {
+        this.Apellido = Apellido;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public String getNumeroDocumento() {
+        return NumeroDocumento;
+    }
+
+    public void setNumeroDocumento(String NumeroDocumento) {
+        this.NumeroDocumento = NumeroDocumento;
+    }
+
+    public String getCodigo() {
+        return Codigo;
+    }
+
+    public void setCodigo(String Codigo) {
+        this.Codigo = Codigo;
+    }
       
     
     
